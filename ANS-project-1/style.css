@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+     font-family: 'Roboto', sans-serif;
+     color: rgb(22, 69, 97);
+}
+.contaner{
+    background-color: rgb(204, 255, 238);
+    width: 900px;
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+.protfluo-image{
+    width: 100px;
+   
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    float: left;
+    
+}
+.protfluo-image:hover{
+    opacity: 0.5;
+}
+.name-bio{
+    float: left;
+    padding: 30px;
+    
+}
+
+.contact-dio{
+    float: right;
+    padding: 30px;
+}
+.contact-dio a{
+   text-decoration: none;
+}
+.contact-dio a:hover{
+   color: rgb(250, 107, 107);
+}
+.cler-bio{
+ clear: both;
+}
+hr{
+
+    border: 3px solid black;
+    width: 100%;
+    border-bottom: none;
+    padding: 20px auto;
+
+}
+/* header-end */
+
+.div-laft{
+    width: 30%;
+    float: left;
+    padding-top: 40px;
+   
+    
+}
+
+.div-right{
+    width: 70%;
+    float: right;
+    padding: 20px 0px 10px 0px;
+    
+}
+.div-right p{
+    font-size: 15px;
+      
+}
+.common-hr{
+    border: 2px solid black;
+    width: 100%;
+    padding: 200px auto;
+    border-bottom: none;
+}
+
+/* edu-end */
+
+.edu-left{
+    width: 45%;
+    float: left;
+
+}
+.edu-left ul li{
+    list-style-type: none;
+
+}
+
+
+.edu-right{
+ width: 45%;
+ float: right;
+}
+
+.edu-right ul li{
+    list-style-type: none;
+
+}
+/* footer-stat */
+.footer-contener{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    
+   
+}
+.footer-contener a{
+   text-decoration: none;
+   color: white;
+   margin: 10px;
+}
+.footer-contener p{
+  color: rgb(218, 216, 216);
+  margin-top: 10px;
+}
